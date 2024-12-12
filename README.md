@@ -4,6 +4,9 @@
 
 This systematic review evaluates the performance of nine selected metagenomic tools: **BASTA**, **Camitax**, **MegaPath-Nano**, **PhaBOX**, **PhyloFlash**, **SqueezeMeta**, **SnakeMAGs**, **ViWrap**, and **TAMA**.
 
+### System Requirements
+All analyses were conducted on a high-performance Linux-based virtual machine, equipped with 2 terabytes of storage and 250 GB of RAM, providing a robust environment for handling complex metagenomics workflows.
+
 ### Repository Organization
 
 The files in this GitHub repository are organized into four different folders, each corresponding to a specific testing process.
