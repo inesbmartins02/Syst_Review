@@ -5,7 +5,7 @@
 This systematic review evaluates the performance of nine selected metagenomic tools: **BASTA**, **Camitax**, **MegaPath-Nano**, **PhaBOX**, **PhyloFlash**, **SqueezeMeta**, **SnakeMAGs**, **ViWrap**, and **TAMA**.
 
 ### System Requirements
-All analyses were conducted on a high-performance Linux-based virtual machine, equipped with 2 terabytes of storage and 250 GB of RAM, providing a robust environment for handling complex metagenomics workflows.
+All analyses were conducted on a high-performance Linux-based virtual machine, equipped with 2 terabytes of storage and 250 GB of RAM.
 
 ### Repository Organization
 
@@ -47,8 +47,8 @@ The files in this GitHub repository are organized into four different folders, e
 ### Usage
 
 1. **Download Assembly Files**:
-   - Go to the NCBI FTP site and download the assembly files (`assembly_files.txt`) for each domain.
-
+   - Go to the NCBI FTP site (https://ftp.ncbi.nlm.nih.gov/genomes/refseq/) and download the assembly files (`assembly_files.txt`) for each domain.
+ 
 2. **Run Database Scripts**:
    - Execute `create_database.py` to download and organize the datasets.
    - Run `extractNC.py` to map GCF content with sequence identifiers.
@@ -72,19 +72,3 @@ The files in this GitHub repository are organized into four different folders, e
 
 6. **Calculate Metrics**:
    - Run `main.py` in the Metrics folder to calculate F1 score, precision, and recall for each taxonomic level across all tools.
-
-### Contributing
-
-Contributions are welcome. Please refer to our [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines on how to contribute to this project.
-
-### License
-
-This project is licensed under [LICENSE](LICENSE). Please review the license terms before using or distributing the code.
-
-### Acknowledgments
-
-We acknowledge the contributions of all authors and the resources used in this systematic review. For more details, please refer to our publication.
-
----
-
-By following these steps, you can replicate our work and evaluate the performance of these metagenomic tools using our dataset. If you have any questions or need further assistance, please open an issue in this repository.
