@@ -1,5 +1,3 @@
-### README
-
 #### Systematic Review of Metagenomic Tools
 
 This systematic review evaluates the performance of nine selected metagenomic tools: **BASTA**, **Camitax**, **MegaPath-Nano**, **PhaBOX**, **PhyloFlash**, **SqueezeMeta**, **SnakeMAGs**, **ViWrap**, and **TAMA**.
